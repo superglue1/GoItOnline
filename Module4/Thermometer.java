@@ -7,6 +7,6 @@ public class Thermometer {
     }
 
     public static double farengeitThermometer (int gradusFarengeit){
-        return (gradusFarengeit+32)*0.5;
+        return (gradusFarengeit-32)/1.8;
     }
 }
